@@ -1,5 +1,5 @@
 """
-cd ~/Developer/addon-ha-fusion
+cd ~/Developer/test_ha
 python3 PUBLISH.py
 """
 
@@ -9,7 +9,7 @@ import subprocess
 
 
 def get_latest_release():
-    url = "https://api.github.com/repos/matt8707/ha-fusion/releases/latest"
+    url = "https://api.github.com/repos/marick45/test_ha1/releases/latest"
     with urllib.request.urlopen(urllib.request.Request(url)) as response:
         return json.loads(response.read().decode())
 
