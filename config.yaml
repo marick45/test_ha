@@ -1,7 +1,7 @@
 # required configuration options
-name: Fusion
-version: 2024.10.1
-slug: ha_fusion
+name: Fusion marick
+version: 2025.26.5
+slug: ha_marick
 description: A modern, easy-to-use and performant custom Home Assistant dashboard
 arch:
   - aarch64
@@ -35,4 +35,3 @@ ports:
   8099/tcp: null
 
 # docker hub
-image: marick45/test_ha-{arch}
